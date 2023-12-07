@@ -1,3 +1,3 @@
 # sunainamath.github.io
 
-Hi! I am sunaina
+Hi! I am Sunaina

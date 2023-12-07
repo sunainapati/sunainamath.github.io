@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Panda Math
-email: snowpanda1024@gmail.com
+title: Sunaina Pati
+email: sunain190105@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Some cool math olympiad problems. 
+  I post my notes here
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://snowpanda1024.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  snowpanda1024
+github_username:  sunainamath
 
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: https-snowpanda1024-github-io
+    shortname: https-sunainamath-github-io
 
 # Build settings
 theme: minima

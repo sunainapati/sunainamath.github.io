@@ -2,7 +2,7 @@
 layout: post
 title:  "Tournament of Towns"
 date:   2022-02-14
-categories: misc
+permalink:/testpost
 ---
 
 The [Tournament of Towns](https://www.turgor.ru/en/problems/) is an international math olympiad based in Russia that runs twice a year. It has a junior and senior division, and O-level and A-level (according to the website, the A-level test is comparable with All-Russian MO or IMO difficulty; O-level is easier). I didn't know much about it as a contestant, but this winter I was looking at the problems, and it has a lot of cool problems &mdash; especially in combinatorics. 

@@ -5,4 +5,4 @@
 layout: home
 ---
 
-hellloooo
+Hi! Welcome! Here are some of my class notes which you might like to check. 

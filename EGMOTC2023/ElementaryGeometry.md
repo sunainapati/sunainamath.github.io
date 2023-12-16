@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: EGMOTC 2023 Elementary Geometry 
-permalink: /EGMOTC2023/ElementaryGeometry
+permalink: /EGMOTC2023/ElementaryGeometry.html
 ---
 
 
@@ -14,7 +14,7 @@ Elementary Geometry doesn't have any prerequisite. So do not be scared. And now,
 
 I will be using Kenneth Peng's Geometry Through Problems as the main reference for the classes. 
 
-> [!note|*] Problem 1
+> [!note] Problem 1
 > 
 > Let $ABCD$ be a quadrilateral. Let $M,N,P,Q$ be the midpoints of sides $AB,BC,CD,DA$. Prove that $MNPQ$ is a parallelogram.
 

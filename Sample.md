@@ -1,6 +1,4 @@
-/* 
-    from https://github.com/SnowPanda1024/snowpanda1024.github.io/tree/main 
-*/ 
+#from https://github.com/SnowPanda1024/snowpanda1024.github.io/tree/main 
 
 ---
 layout: page

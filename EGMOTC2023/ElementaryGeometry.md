@@ -19,12 +19,14 @@ I will be using Kenneth Peng's Geometry Through Problems as the main reference f
 <div class=`proof`>
   Consider $\Delta ABD$ and  $\Delta BDC$ .Note that $NP||BD||MQ$. Similarly, $NM||AC||PQ$. Hence the parallelogram.
 </div>
+
 <div class='example'> text= problem 2
  In $\Delta ABC$, $\angle A$ be right. Let $D$ be the foot of the altitude from $A$ onto $BC$. Prove that $AD^2=BD\cdot CD$.
 </div>
 <div class=`proof`>
   Note that $\Delta ADB\sim \Delta CDA$. So by similarity, we have $$\frac{AD}{BD}=\frac{CD}{AD}.$$
 </div>
+
 <div class='example'> text= problem 3 [Angle Bisector Theorem]
  In $\Delta ABC$, $\angle A$ be right. Let $D$ be the foot of the altitude from $A$ onto $BC$. Prove that $AD^2=BD\cdot CD$.
 </div>

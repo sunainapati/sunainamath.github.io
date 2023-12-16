@@ -1,4 +1,3 @@
-[comment]: <> (https://github.com/SnowPanda1024/snowpanda1024.github.io)
 ---
 layout: page
 _title: Sample
@@ -198,3 +197,4 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
+snowpanda1024.github.io/misc/sample.md at main · SnowPanda1024/snowpanda1024.github.io 

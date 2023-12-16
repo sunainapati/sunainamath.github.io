@@ -1,3 +1,10 @@
+---
+layout: page
+_title: EGMOTC 2023 Elementary Geometry 
+permalink: /EGMOTC2023/ElementaryGeometry
+---
+
+
 # Elementary Geometry
 
 

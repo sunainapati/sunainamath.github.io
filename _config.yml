@@ -34,7 +34,7 @@ disqus:
     shortname: https-sunainamath-github-io
 
 # Build settings
-theme: minima
+theme:  Minimal Light
 plugins:
   - jekyll-feed
 

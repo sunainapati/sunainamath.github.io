@@ -56,7 +56,7 @@ Define $M=(AEF)\cap (BFD)$. So note that $$\measuredangle FME=\measuredangle A,\
 </div>
 
 <div class='example' text='Reims Theorem'>
-Let \omega_1, \omega_2 be two circles intersecting at M,N. Let line \ell_M through M intersect \omega_1, \omega_2 at A_1, A_2. Let B_1, B_2 be points on \omega_1, \omega_2 respectively, Then A_1B_1\parallel A_2B_2 if , and only if, B_1,N,B_2 are collinear on a line \ell_N.
+Let $\omega_1, \omega_2$ be two circles intersecting at $M,N$. Let line $\ell_M$ through $M$ intersect $\omega_1, \omega_2$ at $A_1, A_2$. Let $B_1, B_2$ be points on $\omega_1, \omega_2$ respectively, Then $A_1B_1\parallel A_2B_2$ if , and only if, $B_1,N,B_2$ are collinear on a line $\ell_N$.
 </div>
 <div class='proof'>
 Suppose that B_1NB_2 is a straight line. Then $$\measuredangle MA_1B_1 = \measuredangle MNB_1 = \measuredangle MA_2B_2 \implies A_1B_1 \parallel A_2B_2.$$
@@ -87,7 +87,6 @@ Let $ABC$ be a triangle. Let $I$ be the Incenter of $ABC$ and $S$ be the midpoin
 <div class='proof'>
  Note that$$\angle AYC=\angle XYC=\angle XBC.$$And we have$$\angle BXC=180-\frac{BSC}{2} = 180 - \frac{A}{2}.$$And note that $X-A-Y$ is the angle bisector of $\angle BAC$. So$$\angle YAC=180-\frac{A}{2}.$$So we get that$$\Delta BXC\sim\Delta YAC\implies \angle BCX=\angle ACY.$$
 </div>
-
 <div class='example' text=''>
 
 </div>

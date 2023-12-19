@@ -59,36 +59,33 @@ Define $M=(AEF)\cap (BFD)$. So note that $$\measuredangle FME=\measuredangle A,\
 Let \omega_1, \omega_2 be two circles intersecting at M,N. Let line \ell_M through M intersect \omega_1, \omega_2 at A_1, A_2. Let B_1, B_2 be points on \omega_1, \omega_2 respectively, Then A_1B_1\parallel A_2B_2 if , and only if, B_1,N,B_2 are collinear on a line \ell_N.
 </div>
 <div class='proof'>
-Suppose that B_1NB_2 is a straight line. Then \measuredangle MA_1B_1 = \measuredangle MNB_1 = \measuredangle MA_2B_2 \implies A_1B_1 \parallel A_2B_2.
-The reader is left to prove the reverse implication.
+Suppose that B_1NB_2 is a straight line. Then $$\measuredangle MA_1B_1 = \measuredangle MNB_1 = \measuredangle MA_2B_2 \implies A_1B_1 \parallel A_2B_2.$$
 </div>
 
 <div class='example' text='Simson Line'>
-
+Let a triangle $\triangle ABC$ and a point $P$ be given. Let $D, E,$ and $F$ be the foots of the perpendiculars dropped from P to lines AB, AC, and BC, respectively. Then points $D, E,$ and $F$ are collinear iff the point $P$ lies on circumcircle of $\triangle ABC.$
 </div>
 <div class='proof'>
-
+Let the point $P$ be on the circumcircle of $\triangle ABC.$ So $$\angle BFP = \angle BDP = 90^\circ \implies BPDF \text{ is cyclic }\implies \angle PDF = 180^\circ – \angle CBP.$$
+So $$\angle ADP = \angle AEP = 90^\circ \implies AEPD \text{ is cyclic }$\implies \angle PDE = \angle PAE.$$
+And $$ACBP \text{ is cyclic } \implies \angle PBC = \angle PAE \implies \angle PDF + \angle PDE = 180^\circ$$
+$\implies D, E,$ and $F$ are collinear as desired.
 </div>
 
 <div class='example' text=''>
-
+Let $AB$ be a chord in $\omega(O, r)$ and let $TA$ be a tangent to $\omega$ at $A$. Let $\angle BAT = \alpha$. Let $\angle APB$ be any inscribed angle over the arc $AB$. Then $$\angle BAT=\angle APB.$$
 </div>
 <div class='proof'>
-
+Since $TA$ is a tangent, then it must be perpendicular to $OA$. So  $\angle OAT = 90^{\circ}$. So $\angle OAB = \angle OAT − \angle BAT = 90− \alpha$. 
+Note that $\Delta OAB$ is isosceles. So  $$\angle OAB = \angle OBA = 90^{\circ} − \alpha,\angle AOB = 180^{\circ} −2(90^{\circ} −\alpha) = 2\alpha.$$ And $\angle APB=\angle AOB/2=\alpha$. So done.
 </div>
 
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
+## Olympiad Problems 
+<div class='example' text='STEMS 2024, CAT A, P3'>
+Let $ABC$ be a triangle. Let $I$ be the Incenter of $ABC$ and $S$ be the midpoint of arc $BAC$. Define $IA$ as the $A$-excenter wrt $ABC$. Define $\omega$ to be the circle centred at $S$ with radius $SB$. Let $AI_A \cap \omega = X$, $Y$. Show that $\angle BCX = \angle ACY$.
 </div>
 <div class='proof'>
-
+ Note that$$\angle AYC=\angle XYC=\angle XBC.$$And we have$$\angle BXC=180-\frac{BSC}{2} = 180 - \frac{A}{2}.$$And note that $X-A-Y$ is the angle bisector of $\angle BAC$. So$$\angle YAC=180-\frac{A}{2}.$$So we get that$$\Delta BXC\sim\Delta YAC\implies \angle BCX=\angle ACY.$$
 </div>
 
 <div class='example' text=''>

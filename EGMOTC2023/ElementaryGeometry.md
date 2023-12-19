@@ -116,12 +116,7 @@ and passing through the point $M$, with $C$ on $G_1$ and $D$ on $G_2$. Lines $AC
 lines $BN$ and $CD$ meet at $Q$. Show that $EP = EQ$.
 </div>
 <div class='proof'>
-\begin{itemize}
-    \item Let $MN\cap AB=P \implies M$ is midpoint of $PQ.$
-    \item Hence enough to show that $EM\cap CD$ or show that $EM\cap AB.$
-    \item Note that $\angle ACM=\angle,~~\angle EAB=\angle ECD $
-    \item So $EAMB$ is kite
-\end{itemize}
+Let $MN\cap AB=P \implies M$ is midpoint of $PQ.$  It is enough to show that $EM\cap CD$ or show that $EM\cap AB.$ Note that $$\angle ACM=\angle,~~\angle EAB=\angle ECD.$$ So $EAMB$ is kite. And we are done.
 </div>
 
 <div class='example' text='2019/G1'>
@@ -145,24 +140,20 @@ Consider a circle $\omega$ externally tangent to $\omega_1$ at $T_1$ and interna
 Prove that lines $X_1T_1$ and $X_2T_2$ intersect at a point lying on $\omega$.
 </div>
 <div class='proof'>
-\begin{itemize}
-    \item We use monge and we get $T_1,T_2,M$ where M is midpoint of $XY$ collinear.
-    \item We consider the composition of homothety taking $\omega_1\rightarrow\omega\rightarrow\omega_2$
-    \item This takes $M$ to $M$
-    \item Also since radius is same, it's reflection.
-    \item Which means it's reflection abt the line passing theough centres.
-    \item 
-    \item Let $X_1T\cap \omega =E,TX_1\cap \omega+F\implies EF||X_1X_2$
-    \item And $X_1T\cap \omega+F\implies X_1\rightarrow F\rightarrow X_2\implies T-F-X_2$
-    
-\end{itemize}
+Note that the composition of homotheties gives us$$ \omega_1 \xrightarrow{T_1} \omega \xrightarrow{T_2} \omega_2. $$Moreover, since the product of scales are $-1$ ( not $1$, else it will be a transformation), so the composition is a homothety.
+
+But the homothety taking $\omega_1\rightarrow \omega_2$ is simply $1$ or $-1$ ratio as the radius is the same and the centre lies on $O_1O_2$. But ratio $1$ is absurd. Hence,the ratio is $-1$ with the centre of the homothety being the midpoint of $X_1X_2,O_1O_2$.
+
+Let $M$ be the midpoint of $O_1O_2,X_1X_2$. So note that$$\omega_1\xrightarrow{O} \omega_2=\omega_1 \xrightarrow{T_1} \omega \xrightarrow{T_2} \omega_2.$$But the homothety $\omega_1\xrightarrow{O} \omega_2$ takes $X_1\rightarrow X_2$. Now, we consider the homothety $\omega_1 \xrightarrow{T_1} \omega \xrightarrow{T_2} \omega_2$, this takes$$X_1\rightarrow X_1T_1\cap \omega \text { say } A \rightarrow AT_2\cap \omega_2.$$But we should have $AT_2\cap \omega_2=X_2$. So $T_2-A-X_2$. And we are done!
 </div>
 
-<div class='example' text=''>
-
+<div class='example' text='EGMO 2012 P1'>
+Let $ABC$ be a triangle with circumcentre $O$. The points $D,E,F$ lie in the interiors of the sides $BC,CA,AB$ respectively, such that $DE$ is perpendicular to $CO$ and $DF$ is perpendicular to $BO$. (By interior we mean, for example, that the point $D$ lies on the line $BC$ and $D$ is between $B$ and $C$ on that line.)
+Let $K$ be the circumcentre of triangle $AFE$. Prove that the lines $DK$ and $BC$ are perpendicular.
 </div>
 <div class='proof'>
-
+Note that $\angle FKE=2\angle A$ and$$\angle OBC=\angle OCB=90-\angle A\implies \angle FDB=\angle EDC=A\implies \angle FDE=180-2\angle A\implies KFDE \text{ cyclic}.$$
+As$$KF=KE\implies \angle KEF=90-A\implies \angle KDF=90-A\implies $$$$\angle KDB=\angle KDF+\angle FDB=90$$$$\implies KD\perp BC.$$And we are done.
 </div>
 
 <div class='example' text=''>

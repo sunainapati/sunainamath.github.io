@@ -156,11 +156,58 @@ Note that $\angle FKE=2\angle A$ and$$\angle OBC=\angle OCB=90-\angle A\implies 
 As$$KF=KE\implies \angle KEF=90-A\implies \angle KDF=90-A\implies $$$$\angle KDB=\angle KDF+\angle FDB=90$$$$\implies KD\perp BC.$$And we are done.
 </div>
 
-<div class='example' text=''>
+<div class='example' text='IMO 2023 P2'>
+Let $ABC$ be an acute-angled triangle with $AB\le AC$. Let $\Omega$ be the circumcircle of $ABC$. Let $S$ be the midpoint of the arc $CB$ of $\Omega$ containing $A$. The perpendicular from $A$ to $BC$ meets $BS$ at $D$ and meets $\Omega$ again at $E \neq A$. The line through $D$ parallel to $BC$ meets line $BE$ at $L$. Denote the circumcircle of triangle $BDL$ by $\omega$. Let $\omega$ meet $\Omega$ again at $P \neq B$. Prove that the line tangent to $\omega$ at $P$ meets line $BS$ on the internal angle bisector of $\angle BAC$.
+
 
 </div>
 <div class='proof'>
+Define $A'$ as the antipode of $A$. And redefine $P=A'D\cap (ABC)$. Define $L=SP\cap (PDB)$. 
+<div class='claim'>
+   $L-B-E$ collinear
+</div>
+<div class='proof'>
+  Note that $$\angle SCA=\angle SCB-\angle ACB=90-A/2-C.$$
+So $$\angle SPA=90-A/2-C\implies \angle SPA'=90-(90-A/2-C)=A/2+C\implies \angle LBD=A/2+C\implies \angle LBD=A/2+C.$$
+By angle chase, $$\angle DBC=90-A/2,\angle EBC=90-C.$$ So $E-B-L$ collinear.
+</div>
+  
+<div class='claim'>
+  $LD||BC$
+</div>
+<div class='proof'>
+  Define $F$ as midpoint of arc $BC$ not containing $A$.
+Now define $X=PP\cap AF$. Define $O$ as the circumcenter of $(ABC)$. 
+We know that $$\angle EBC=90-C,\angle ELD=\angle BLD=\angle BPD=\angle BPA'=\angle BAO=90-C.$$
+So $LD||BC$.
+  
+</div>
+<div class='claim'>
+  $PXOF$ is cyclic
+</div>
+<div class='proof'>
+   Let $\angle PAB=\theta$. So $\angle PSB=\theta$ and $\angle PSF=\theta+A/2$. So $\angle POF=2\theta+A$. 
+And $\angle PXF=\angle PAX+\angle APX$. But $\angle PAX=\theta+A/2$. And $$\angle APX=\angle APS+\angle SPX=\angle ACS+\angle SPX=90-A/2-C+\angle SPX.$$
+So to show cyclicity, we need to show that $$2\theta+A=\angle PXF=90+\theta-C+\angle SPX.$$
+Or enough to show $$\angle SPX=\theta+A-90+C.$$
+But $$\angle SPX=\angle SPB-\angle XPB$$ 
+$$=\angle SAB-\angle XPD-\angle DPB= 90+A/2-\angle DBP-\angle DLB$$
+$$=90+A/2-\angle DLP-(90-C)$$
+$$=C+A/2-\angle DLP$$
+as $SF||AD,BC||LD, AD\perp BC$ we get $$C+A/2-\angle DLP=C+A/2-(90-A/2-\theta)=C+A-90+\theta.$$
+And so we get $PXOF$ is cyclic.
+</div>
+<div class='claim'>
+  $XA=XP$
+</div>
+<div class='proof'>
+  Note that $$\angle XPA=\angle PXF-\angle PAX=2\theta+A-\theta-A/2=\theta+A/2$$. So $\angle XPA=\angle XAP$. And hence the claim.
+But $$XA^2=XP^2=XD\cdot XB.$$ So $XA$ is tangent to $(DBA)$. Hence $$\angle ABD=\angle DAS=\angle DAF=\angle AFS=\angle ABS.$$
 
+</div>
+And hence we get $B-X-S$ collinear.
+
+And we are done! 
 </div>
 
 <div class='example' text=''>

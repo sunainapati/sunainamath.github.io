@@ -88,38 +88,74 @@ Let $ABC$ be a triangle. Let $I$ be the Incenter of $ABC$ and $S$ be the midpoin
  Note that$$\angle AYC=\angle XYC=\angle XBC.$$And we have$$\angle BXC=180-\frac{BSC}{2} = 180 - \frac{A}{2}.$$And note that $X-A-Y$ is the angle bisector of $\angle BAC$. So$$\angle YAC=180-\frac{A}{2}.$$So we get that$$\Delta BXC\sim\Delta YAC\implies \angle BCX=\angle ACY.$$
 </div>
 <div class='example' text=''>
+Let $ABC$ be a triangle. The incircle of $ABC$ has center $I$ and is tangent to $AB$
+and $AC$ at $D$ and $E$ respectively. Let $O$ denote the circumcenter of $BCI$. Prove
+that $\angle ODB = \angle OEC$.
+</div>
+<div class='proof'>
+Note that $A,I,O$ are collinear. Now $$\triangle ADO \cong \triangle AEO \implies \angle ODB = \angle OEC$$ 
+</div>
+
+<div class='example' text='USAJMO 2020/4'>
+Let $ABCD$ be a convex quadrilateral inscribed in a circle and satisfying $DA < AB = BC < CD$. Points $E$ and $F$ are chosen on sides $CD$ and $AB$ such that $BE \perp AC$ and $EF \parallel BC$. Prove that $FB = FD$.
+</div>
+<div class='proof'>
+Let $P = AC \cap BE$. Since $\triangle{ABC}$ is isosceles we know that $P$ is the mid point of $AC$. Let $\angle{CBE} = \angle{ABE} = \alpha$. We also know that $\angle{BCA} = \angle{BAC} = 90 - \alpha$. By parallel lines we know that $\angle{FEB} = \alpha$. Hence $\triangle{FEB}$ is isosceles or $FB = FE$.
+
+Let $\angle{DCA} = \angle{DBA} = \theta$. By parallel lines we see that $\angle{DEF} = 90 - \alpha + \theta$. Since $EP \perp AC$ and $P$ is the midpoint of $AC$ as previously stated, we know that $\triangle{AEC}$ is isosceles or $\angle{EAC} = \angle{ECA} = \theta$.
+
+Note that $AFED$ is cyclic due to\[\angle{AFE} + \angle{ADE} = 180 - \angle{BFE} + 180 - \angle{ABC} = 180 - (180 - 2\alpha) + 180 - 2\alpha = 180.\]Hence we know that $\angle{FAE} = \angle{FAC} + \angle{CAE} = 90 - \alpha + \theta = \angle{FDE}$ meaning that $\angle{FDE} = \angle{FED}$ or $\triangle{FED}$ is isosceles.
+
+Therefore we know that $FE = FD$. Previously we found that $FB = FE$, thus we get $FB = FE$ as desired.
+</div>
+
+<div class='example' text='IMO 2000/1'>
+Two circles $G_1$ and $G_2$ intersect at two points $M$ and $N$. Let $AB$ be the line tangent to these circles at $A$ and $B$,
+respectively, so that $M$ lies closer to $AB$ than $N$. Let $CD$ be the line parallel to $AB$
+and passing through the point $M$, with $C$ on $G_1$ and $D$ on $G_2$. Lines $AC$ and $BD$ meet at $E$; lines $AN$ and $CD$ meet at $P$;
+lines $BN$ and $CD$ meet at $Q$. Show that $EP = EQ$.
+</div>
+<div class='proof'>
+\begin{itemize}
+    \item Let $MN\cap AB=P \implies M$ is midpoint of $PQ.$
+    \item Hence enough to show that $EM\cap CD$ or show that $EM\cap AB.$
+    \item Note that $\angle ACM=\angle,~~\angle EAB=\angle ECD $
+    \item So $EAMB$ is kite
+\end{itemize}
+</div>
+
+<div class='example' text='2019/G1'>
+Let $ABC$ be a triangle. Circle $\Gamma$ passes through $A$, meets segments $AB$ and $AC$ again at points $D$ and $E$ respectively, and intersects segment $BC$ at $F$ and $G$ such that $F$ lies between $B$ and $G$. The tangent to circle $BDF$ at $F$ and the tangent to circle $CEG$ at $G$ meet at point $T$. Suppose that points $A$ and $T$ are distinct. Prove that line $AT$ is parallel to $BC$.
 
 </div>
 <div class='proof'>
-
+Redefine $T$ such that $T\in (ABC)$ and $AT||BC$.
+<div class='claim'>
+  $TF$ tangent to $(BDF)$.
+</div>
+  <div class='proof'>
+    Note that is enough to show that $180-\angle BDF=\angle BFT$. But note that$$\angle BDF=\angle TFG=\angle FTA.$$
+  </div>
+Similarly, we get that $TG$ is tangent to $(EGC)$. And we are done.
 </div>
 
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
+<div class='example' text='EGMO 2016/P4'>
+Two circles $\omega_1$ and $\omega_2$, of equal radius intersect at different points $X_1$ and $X_2$.
+Consider a circle $\omega$ externally tangent to $\omega_1$ at $T_1$ and internally tangent to $\omega_2$ at point $T_2$.
+Prove that lines $X_1T_1$ and $X_2T_2$ intersect at a point lying on $\omega$.
 </div>
 <div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
+\begin{itemize}
+    \item We use monge and we get $T_1,T_2,M$ where M is midpoint of $XY$ collinear.
+    \item We consider the composition of homothety taking $\omega_1\rightarrow\omega\rightarrow\omega_2$
+    \item This takes $M$ to $M$
+    \item Also since radius is same, it's reflection.
+    \item Which means it's reflection abt the line passing theough centres.
+    \item 
+    \item Let $X_1T\cap \omega =E,TX_1\cap \omega+F\implies EF||X_1X_2$
+    \item And $X_1T\cap \omega+F\implies X_1\rightarrow F\rightarrow X_2\implies T-F-X_2$
+    
+\end{itemize}
 </div>
 
 <div class='example' text=''>

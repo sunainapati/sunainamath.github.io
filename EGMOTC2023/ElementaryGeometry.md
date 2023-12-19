@@ -210,68 +210,159 @@ And hence we get $B-X-S$ collinear.
 And we are done! 
 </div>
 
-<div class='example' text=''>
+<div class='example' text='2008 G1'>
+Let $ H$ be the orthocenter of an acute-angled triangle $ ABC$. The circle $ \Gamma_{A}$ centered at the midpoint of $ BC$ and passing through $ H$ intersects the sideline $ BC$ at points $ A_{1}$ and $ A_{2}$. Similarly, define the points $ B_{1}$, $ B_{2}$, $ C_{1}$ and $ C_{2}$.
+
+Prove that the six points $ A_{1}$, $ A_{2}$, $ B_{1}$, $ B_{2}$, $ C_{1}$ and $ C_{2}$ are concyclic.
+</div>
+<div class='proof'>
+<div class='claim'>
+  $A_1A_2C_1C-2$ is cyclic
+</div>
+<div class='proof'>
+   Note that $H$ lies on the radical axis of $(C_1C_2)$ and $(A_1A_2)$. Moreover, we know that $BH$ is perpendicular to line joining the centre. So $BC_2\cdot BC_1=BA_1\cdot BA_2\implies A_1A_2C_1C_2$ cyclic.
+
+</div>
+Similarly, we get $A_1A_2B_1B_2$ and $B_1B_2C_1C_2$ cyclic. If these three circles are not the same then, consider the pairwise radical axis which should concur( but they don't).
+</div>
+
+<div class='example' text='USAMO 2021'>
+Rectangles $BCC_1B_2,$ $CAA_1C_2,$ and $ABB_1A_2$ are erected outside an acute triangle $ABC.$ Suppose that\[\angle BC_1C+\angle CA_1A+\angle AB_1B=180^{\circ}.\]Prove that lines $B_1C_2,$ $C_1A_2,$ and $A_1B_2$ are concurrent.
+
+</div>
+<div class='proof'>
+<div class='claim'> Circumcircles of $B_1A_2AB, AA_1C_2C,$ and $BCC_1B_2$ mutually intersect at some point $P.$
+</div>
+<div class='proof'>
+Let $P$ be $(BCC_1B_2)\cap (CAA_2C_2)$. Note that
+$$\angle AB_1B&=180^\circ-(\angle BC_1C+\angle CA_1A)$$ 
+$$=\angle BPC+\angle APC-180^\circ=180^\circ - \angle APB$$
+</div>
+<div class='claim'> Lines $B_1C_2, C_1A_2,$ and $A_1B_2$ concur at $P.$
+</div>
+<div class='proof'>
+But $$\angle A_2PB=\angle BPC_1=90^\circ.$$
+</div>
+So done!
+</div>
+
+<div class='example' text='2015 P1'>
+Let $\triangle ABC$ be an acute-angled triangle, and let $D$ be the foot of the altitude from $C.$ The angle bisector of $\angle ABC$ intersects $CD$ at $E$ and meets the circumcircle $\omega$ of triangle $\triangle ADE$ again at $F.$
+If $\angle ADF = 45^{\circ}$, show that $CF$ is tangent to $\omega .$
+</div>
+<div class='proof'>
+Note that $\angle FDE=45$. As $F$ lies on the angle bisector and $FD$ is the external bisector of $\angle CDB$, we get that $F$ is the $B-$ excenter of $\Delta CDB$.
+Note that$$FCD=\frac{180-(\angle DCB)}{2}=\frac{180-90+\angle B}{2}=45+\frac{\angle B}{2}$$and$$\angle AED=180-\angle FEA-\angle DEB=180-45-90+\frac{\angle B}{2}=45+ \frac{\angle B}{2}$$$$\implies CF||AF$$
+So$$\angle FEA=\angle FAE=\angle AFX, X\in \overrightarrow{ CF}.$$
+</div>
+
+<div class='example' text='IISC Pravega'>
+Let $ABC$ be a triangle inscribed in circle $\omega$ centered at $O$. Let $H$ be the orthocenter of $\triangle ABC$. Let $Q$ be a point on $\omega$ such that $\angle AQH = 90^\circ$. Let $N$ be the nine point center of $\triangle QBC$. Show that $HO= 2 HN$.
+</div>
+<div class='proof'>
+Let the orthocentre of $QBC$ be $J$. Let $L$ be the $N_9$ center of $ABC$. Let $M$ be the midpoint of $BC.$ Note that $Q-H-M$
+<div class='claim'> 
+   $AQJH$ is a parallelogram $\implies QM\perp NL$
+</div>
+<div class='proof'>
+ Note that $NL||HJ$. Note that$$ AH\perp BC,QJ\perp BC\implies AH||QJ, AH=2R\cos (A)=QJ\implies AQJH\text{ is a parallelogram }.$$
+</div>
+<div class='claim'> 
+  $MN=ML$
+</div>
+<div class='proof'>
+As the radius of nine point circle is $1/2$ radius of the circumcircle, but $(QBC)=(ABC).$
+</div>
+
+So $Q-H-M$ is the perpendicular bisector of $NL$. Hence$$ HN=HL\implies HO=2HN.$$
+</div>
+<div class='claim'> 
 
 </div>
 <div class='proof'>
 
 </div>
+<div class='example' text='2015 G1'>
+Let $ABC$ be an acute triangle with orthocenter $H$. Let $G$ be the point such that the quadrilateral $ABGH$ is a parallelogram. Let $I$ be the point on the line $GH$ such that $AC$ bisects $HI$. Suppose that the line $AC$ intersects the circumcircle of the triangle $GCI$ at $C$ and $J$. Prove that $IJ = AH$.
+</div>
+<div class='proof'>
+<div class='claim'> 
+$GBHC$ cyclic
+</div>
+<div class='proof'>
+Note that $HC\perp HG$ as $HC\perp AB$. And $GB\perp BC$ as $AH\perp BC$. So $GBHC$ cyclic.
+</div>
 
-<div class='example' text=''>
+Note that$$\angle HBG=\angle HBC+\angle CBG=90-C+90=180-C\implies \angle HCG=C\implies 90-C=\angle IGC=\angle IJC.$$But$$\angle IA'A=\angle A'AH=90-C\implies IJ=IA'=AH.$$
+</div>
+
+<div class='example' text='2020 G1'>
+Let $ABC$ be an isosceles triangle with $BC=CA$, and let $D$ be a point inside side $AB$ such that $AD\le DB$. Let $P$ and $Q$ be two points inside sides $BC$ and $CA$, respectively, such that $\angle DPB = \angle DQA = 90^{\circ}$. Let the perpendicular bisector of $PQ$ meet line segment $CQ$ at $E$, and let the circumcircles of triangles $ABC$ and $CPQ$ meet again at point $F$, different from $C$.
+Suppose that $P$, $E$, $F$ are collinear. Prove that $\angle ACB = 90^{\circ}$
+</div>
+<div class='proof'>
+Let $N$ be the midpoint of $AB$, $M$ be the midpoint of $PQ$.
+Note that$$\angle CND=90\implies N\in (CPDQF).$$
+Also, $CN$ is the angle bisector $\angle BCA \implies CN$ is the angle bisector of $\angle PCQ\implies NP=NQ\implies C-M-E$.
+But$$\angle PNC=\angle CQP=\angle FPQ=\angle FNQ.$$So $\triangle PNC \cong \triangle FNQ \implies M\in $ perpendicular bisector of $CF$.
+
+So $M$ is the circumcentre of $(ACB)$ as perpendicular bisector of $AB$ and $CF$ concur at $M$.
+</div>
+
+<div class='example' text='India TST 2015 P1'>
+Diagonals $\ol{AC}$ and $\ol{BD}$ of convex quadrilateral $ABCD$ meet at $P$. Prove that the incenters of the triangles
+$\triangle PAB$, $\triangle PBC$, $\triangle PCD$, $\triangle PDA$ are concyclic if and only if their $P$-excenters are also concyclic.
+</div>
+<div class='proof'>
+Note that $AI_A\cdot AJ_A=AB\cdot AC.$
+We then use POP $PA\cdot PB=PI_1\cdot PJ_1$ and we do it cyclically. Doing manipulations, we get that 
+    $$\frac{(PI_2\cdot PE_2)(PI_4\cdot PE_4)}{(PI_1\cdot PE_1)(PI_3\cdot PE_3)}=1 $$ And then we take POP on $P$ in concyclicity etc.
+</div>
+
+<div class='example' text='2018 P1'>
+Let $\Gamma$ be the circumcircle of acute triangle $ABC$. Points $D$ and $E$ are on segments $AB$ and $AC$ respectively such that $AD = AE$. The perpendicular bisectors of $BD$ and $CE$ intersect minor arcs $AB$ and $AC$ of $\Gamma$ at points $F$ and $G$ respectively. Prove that lines $DE$ and $FG$ are either parallel or they are the same line.
+</div>
+<div class='proof'>
+Define $Q=GE\cap (ABC),P=DF\cap (ABC)$
+<div class='claim'> 
+$Q\in (ADE)$
+</div>
+<div class='proof'>
+Note that$$\angle AQE=\angle AQG=\angle GCA=\angle GCE=\angle GEC=\angle AEQ.$$
+</div>
+Hence, if $D$ is the midpoint of major arc $BC$, note that $A-I-D$ and $D$ is the centre of $(BIC).$ Note that by triangle inequality we have$$AD\le AP+PD\implies AI+ID\le AP+PD\implies AI\le AP.$$
+</div>
+
+<div class='example' text='IMO 2013 P4'>
 
 </div>
 <div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
+Define $Z=(BWX)\cap (CWY)$
+<div class='claim'> 
+$X-Z-Y$ collinear
 </div>
 <div class='proof'>
-
+As $XW$ is the diameter, we have $\angle XZW=90$, similarly, we have $\angle WZY=90$
 </div>
-
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
+<div class='claim'> 
+$Z\in (ANHM)$
 </div>
 <div class='proof'>
+Note that $Z$ is the miquel point. So $Z\in (ANM)$, But $H\in (ANM)\implies (ANHMZ)$ is cyclic.
 
 </div>
-
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
-
-<div class='example' text=''>
-
+Note that $NMCB$ is cyclic
+<div class='claim'> 
+$Z\in AW$
 </div>
 <div class='proof'>
-
+Note that$$\angle NZW=180-\angle NBW=\angle NMC=180-\angle NMA=180-\angle NZA.$$
+</div>
+Now, note that$$\angle XZW=\angle HZA=90\implies H\in X-Z-Y.$$
 </div>
 
-<div class='example' text=''>
 
-</div>
-<div class='proof'>
 
-</div>
-
-<div class='example' text=''>
-
-</div>
-<div class='proof'>
-
-</div>
 
 
 

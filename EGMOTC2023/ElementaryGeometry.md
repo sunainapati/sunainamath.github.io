@@ -235,7 +235,7 @@ Rectangles $BCC_1B_2,$ $CAA_1C_2,$ and $ABB_1A_2$ are erected outside an acute t
 </div>
 <div class='proof'>
 Let $P$ be $(BCC_1B_2)\cap (CAA_2C_2)$. Note that
-$$\angle AB_1B&=180^\circ-(\angle BC_1C+\angle CA_1A)$$ 
+$$\angle AB_1B=180^\circ-(\angle BC_1C+\angle CA_1A)$$ 
 $$=\angle BPC+\angle APC-180^\circ=180^\circ - \angle APB$$
 </div>
 <div class='claim'> Lines $B_1C_2, C_1A_2,$ and $A_1B_2$ concur at $P.$
@@ -310,7 +310,7 @@ So $M$ is the circumcentre of $(ACB)$ as perpendicular bisector of $AB$ and $CF$
 </div>
 
 <div class='example' text='India TST 2015 P1'>
-Diagonals $\ol{AC}$ and $\ol{BD}$ of convex quadrilateral $ABCD$ meet at $P$. Prove that the incenters of the triangles
+Diagonals ${AC}$ and ${BD}$ of convex quadrilateral $ABCD$ meet at $P$. Prove that the incenters of the triangles
 $\triangle PAB$, $\triangle PBC$, $\triangle PCD$, $\triangle PDA$ are concyclic if and only if their $P$-excenters are also concyclic.
 </div>
 <div class='proof'>

@@ -52,7 +52,7 @@ $\frac{AR}{RB}\cdot\frac{QC}{QA}=\frac{CP}{PB}\implies \frac{AR}{RB}\cdot\frac{Q
 In $\Delta ABC$, choose points $D,E,F$ on sides $BC,CA,AB$ respectively. Prove that circles $(AEF),(BFD),(CDE)$ share a point known as the miquel point. 
 </div>
 <div class='proof'>
-Define $M=(AEF)\cap (BFD)$. So note that $$\dangle FME=\dangle A,\dangle EMD=\dangle C\implies \dangle FMD=B\implies M\in (DFB).$$
+Define $M=(AEF)\cap (BFD)$. So note that $$\measuredangle FME=\measuredangle A,\measuredangle EMD=\measuredangle C\implies \measuredangle FMD=B\implies M\in (DFB).$$
 </div>
 
 <div class='example' text='Reims Theorem'>
